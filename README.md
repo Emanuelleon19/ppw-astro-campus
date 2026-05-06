@@ -43,4 +43,39 @@ pnpm dev
 ![Build](evidencias/assets/01-build.png)  
 ---
 
+# 02. Fundamentos de Astro
+
+---
+
+## Descripción
+
+En esta práctica se trabajó con conceptos fundamentales de Astro relacionados con componentes reutilizables, props y generación automática de rutas.
+
+También se aplicó renderizado condicional y manejo de arreglos para mostrar información dinámica dentro de las páginas.
+
+---
+
+## Actividades realizadas
+
+- Creación del componente `RecursoCard.astro`
+- Uso de props para reutilizar componentes
+- Implementación de tipado con TypeScript
+- Creación de la página `about.astro`
+- Uso de renderizado condicional
+- Renderizado dinámico de listas con `.map()`
+
+---
+
+## Evidencias
+
+### Home page con componentes Card
+![Index con Cards](evidencias/assets/02-index-cards.png)
+
+### Página About funcionando
+![Página About](evidencias/assets/02-about.png)
+
+### Sección de herramientas en about.astro
+![Sección Herramientas](evidencias/assets/02-about-completo.png)
+
+---
 
