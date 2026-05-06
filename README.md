@@ -1,43 +1,46 @@
-# Astro Starter Kit: Minimal
+# 01. Instalación y Configuración de Astro
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+**Emanuel Leon**
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## Descripción
 
-Inside of your Astro project, you'll see the following folders and files:
+En esta práctica se utilizó **Astro v6.2.2** para crear un proyecto web básico con generación de sitios estáticos.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Se verificó previamente el entorno de trabajo:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+node --version  
+pnpm --version  
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Any static assets, like images, can be placed in the `public/` directory.
+---
 
-## 🧞 Commands
+## Actividades realizadas
 
-All commands are run from the root of the project, from a terminal:
+- Creación de un proyecto Astro con plantilla mínima  
+- Configuración básica del proyecto  
+- Implementación de una página inicial  
+- Verificación del entorno con comandos de Astro  
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+### Ejecutar servidor:  
+pnpm dev  
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Evidencias
+
+## Creación del proyecto  
+![Crear Proyecto](evidencias/assets/01-instalacion.png)  
+
+## Información del entorno  
+![entorno](evidencias/assets/01-astro-info.png)  
+
+## Ejecución en localhost  
+![LocalHost](evidencias/assets/01-localhost.png)  
+
+## Salida del build de producción
+![Build](evidencias/assets/01-build.png)  
+---
+
+
